@@ -22,4 +22,13 @@ test:
 
 production:
   <<: *default
+<<<<<<< HEAD
   database: storage/production.sqlite3
+=======
+  database: database
+  url: <%= ENV['DATABASE_URL_EXTERNAL'] %>
+
+
+
+ 
+>>>>>>> 972ee0d (Update database.yml with new configuration)
